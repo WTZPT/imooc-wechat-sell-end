@@ -33,8 +33,8 @@ public class ProductCategoryRepositoryTest {
     @Transactional
     public void saveTest() {
         ProductCategory productCategory = new ProductCategory("男生最爱", 4);
-        ProductCategory result = repository.save(productCategory);
-        Assert.assertNotNull(result);
+      //  ProductCategory result = repository.save(productCategory);
+       // Assert.assertNotNull(result);
 //        Assert.assertNotEquals(null, result);
     }
 
